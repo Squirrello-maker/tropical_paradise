@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,CAAC,EAAE,CAAC,AAAA,QAAQ,EAAE,CAAC,AAAA,OAAO,CAAA;EAClB,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;AACD,AAAA,IAAI,CAAA;EACA,SAAS,EAAE,KAAK;EAChB,eAAe,EAAE,MAAM;CAC1B;;AACD,AAAA,IAAI,CACJ;EAEI,WAAW,EAAE,uBAAuB;EACpC,SAAS,EAAE,MAAM;CACpB",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/_colors.scss",
+        "../sass/_components.scss",
+        "../sass/_mixins.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
