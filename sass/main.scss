@@ -210,6 +210,69 @@ body
     }
 }
 
+//ISLANDS
+
+.islands
+{
+    &__card
+    {
+       position: relative; 
+       margin: 1em 0;
+       height: 450px;
+       color: $pure-white;
+       text-align: center;
+       perspective: 1000px;
+       &:hover
+       {
+           .islands__card-img
+           {
+            transform: rotateY(-180deg);
+            opacity: 0;
+           }
+           .islands__card-info
+           {
+            transform: rotateY(0deg);
+            opacity: 1;
+           }
+       }
+       &-img
+       {
+           padding: 2em;
+           height: 100%;
+           border-radius: 8px;
+           background-size: cover;
+           transition: transform 1s, opacity 1s;
+           &--first
+           {
+               background-image: $light-blue-gradient, url('../img/1sm.jpg');
+           }
+           &--second
+           {
+               background-image: $blue-gradient, url('../img/2sm.jpg');
+           }
+           &--third
+           {
+               background-image: $purple-gradient, url('../img/3sm.jpg');
+           }
+           &-title
+           {
+               font-family: 'Dancing Script', cursive;
+               font-size: 2.8rem;
+           }
+           &-info
+           {
+               position: absolute;
+               bottom: 30px;
+               right: 30px;
+               i
+               {
+                   margin-right: .3em;
+               }
+           }
+       }
+    }
+}
+
 // ######################################
 //MEDIA QUERIES
 // ######################################
